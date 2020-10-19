@@ -9,7 +9,7 @@ This repository will contain the workflow generated in the project to analyze Ul
 
 
 The repository will be organized as follows:
-bin, data, meta, figures.
+bin, data, graphics, meta, out.
 
 ### *bin*
 
@@ -17,8 +17,16 @@ This folder will contain scripts to analyze UCEs.
 
 ### *data*
 
-This folder will contain raw data sequences
+This folder will contain a link to raw data sequences in drive
+
+### *graphics*
+
+This folder will contain figures and graphics related to the project.
+
 
 ### *meta*
 
-This folder will contain general information of samples (I.D, Geographical coordinates)
+This folder will contain general information about samples (I.D, Geographical coordinates)
+
+### *out*
+Contains results of all analysis made in the research.
