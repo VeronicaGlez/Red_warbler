@@ -29,4 +29,5 @@ This folder will contain figures and graphics related to the project.
 This folder will contain general information about samples (I.D, Geographical coordinates)
 
 **[out](/out)**
+
 Contains results of all analysis made in the research.
