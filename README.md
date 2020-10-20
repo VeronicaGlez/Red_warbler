@@ -17,7 +17,7 @@ This folder will contain scripts to analyze UCEs.
 
 **[data](/data)**
 
-This folder will contain a txt file with a link to raw data sequences in drive
+This folder will contain a .txt file with a link to raw data sequences in drive
 
 **[graphics](/graphics)**
 
