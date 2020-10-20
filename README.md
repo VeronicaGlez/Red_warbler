@@ -5,7 +5,7 @@ In the last 50 years, Mexico lost about 50% of its forests because of land use c
 
 This repository will contain the workflow generated in the project to analyze Ultraconservated Elements (UCEs) to evaluate the impact of habitat fragmentation on the genetic diversity  of populations of Cardellina rubra.
 
-### **Directory organization**
+### **Repository organization**
 
 
 The repository will be organized as follow:
