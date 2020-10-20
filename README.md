@@ -8,7 +8,7 @@ This repository will contain the workflow generated in the project to analyze Ul
 ### **Repository organization**
 
 
-The repository will be organized as follow:
+The repository will be organized in the following directories:
 bin, data, graphics, meta, out.
 
 **[bin](/bin)**
