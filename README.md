@@ -41,6 +41,9 @@ This folder will contain general information about samples (I.D, Geographical co
 Contains results of all analysis made in the research.
 
 ### Prerequisites
+* R version 3.6.3 (2020-02-29)
+* Platform: x86_64-pc-linux-gnu (64-bit)
+* Running under: Ubuntu 18.04.5 LTS
 
 #### Software
 * PGDSpider
