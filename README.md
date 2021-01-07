@@ -20,11 +20,11 @@ bin, data, graphics, meta, out.
 
 **[bin](/bin)**
 
-This folder will contain scripts to analyze SNPs dataset.
+This folder will contain scripts to evaluate population structure, genetic diversity and admixture.
 
 **[data](/data)**
 
-This folder will contain a .txt file with a link to raw data sequences in drive.
+This folder will contain a .vcf file with SNPs dataset and .str file for run fastStructure.
 
 **[graphics](/graphics)**
 
