@@ -2,7 +2,7 @@
 
   In the last 50 years, Mexico lost about 50% of its forests because of land use change. Even though birds have been considered as highly tolerant to disturbed environments because of their ability to fly, recent analyses suggest that, this is not necessarily true. Next Generation Sequencing (NGS) is a sensitive tool that allows the detection of the effects of environmental changes on species at the population genetics level and enables inferences about connectivity, population sizes and adaptation.
  
-In this repository, you will find the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species (Vermivora chrysoptera, V. cyanoptera) and a híbrid. Then, this will serve as the basis for analyze the impact of habitat fragmentation in genetic diversity, population structure and admixture of  *Cardellina rubra* along Transmexican Volcanic Belt.
+In this repository, you will find the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species (*Vermivora chrysoptera, V. cyanoptera*) and a híbrid. Then, this will serve as the basis for analyze the impact of habitat fragmentation in genetic diversity, population structure and admixture of  *Cardellina rubra* along Trans-Mexican Volcanic Belt.
 
 
 ##### <div align="left"> ![](yellow.png) 
