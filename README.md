@@ -29,6 +29,7 @@ This folder will contain a .vcf file with SNPs dataset and .str file for run fas
 **[graphics](/graphics)**
 
 This folder will contain figures and graphics related to the project.
+Aditionally, .htlm files with figures and scripts development. 
 
 
 **[meta](/meta)**
