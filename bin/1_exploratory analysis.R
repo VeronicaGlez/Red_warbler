@@ -1,7 +1,12 @@
 #!/bin/bash/
 
 #Exploratory analysis 
+#Author: Veronica L. Gonzalez Valdez
+# Run this script from directory ~/bin/ and the data are in ~/data/
+#The metadata file is available in  ~/meta/met_yw.csv
+
 #This script is to make a exploratory analysis using Principal Component Analysis with the packages SNPRelate and ggplot.
+
 
 library(gdsfmt) 
 library(SNPRelate)
