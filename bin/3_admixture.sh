@@ -1,6 +1,11 @@
+#Script for evaluate admixture
+#Author: Veronica L. Gonzalez Valdez
+
 #ADMIXTURE
 ####VERSION 1.3.0
+#YOU NEED ADMIXTURE PREVIOUSLY INSTALLED IN YOUR PATH
 
+# data are available in ~/data/warbler
 #This script run in the program admixture with bed file 
 
 
@@ -9,14 +14,13 @@
 	for K in 1 2 3 4 5 6; do 
 	./admixture --cv=6 warbler.bed $K | tee log${K}.out; done
 
-
-##2) Elegir la K
+#Choose K
 	grep -h CV log*.out > SNPS_CV.txt
 
 
 ##3) Plot admixture
-###NOTA:
-#Se corre desde R STUDIO
+###NOTE:
+#This part can be run in R STUDIO
 
 
 	t1=read.table("SNPS_bed.1.Q")
