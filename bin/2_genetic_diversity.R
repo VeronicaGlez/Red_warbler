@@ -1,7 +1,9 @@
-#Script for genetic analysis
+
+#Script for evaluate genetic analysis in R studio with hierfstats packages.
+#Author: Veronica L. Gonzalez Valdez
+# Run this script from directory ~/bin/ and the data are in ~/data/
 
 library("hierfstat")
-
 #load dataset
 yw <-read.delim("../data/SNPs_012.012", sep = "\t", header = FALSE, na.strings = -1)
 
