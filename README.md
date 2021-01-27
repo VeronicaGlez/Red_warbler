@@ -10,7 +10,9 @@ In this repository, you found the work generated to analyze Single Nucleotide Po
 
 
 ### **Data**
-The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/dryad.kb610). The original paper: Toews, David P. L. et al. (2017) [Plumage genes and little else distinguish the genomes of hybridizing warblers.](https://www.cell.com/current-biology/fulltext/S0960-9822(16)30673-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098221630673X%3Fshowall%3Dtrue).
+The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/dryad.kb610). The dataset contain 151 Individuals with genotype information generated from the ddRAD protocol, with individuals sampled across the range of both species. The original name dataset is GWWA_BWWA.GATK.filtered.removed.minGQ.20.removed.indv.max.missing.4.maf.02.vcf.recode.vcf and rename to data_warbler.vcf
+
+The original paper: Toews, David P. L. et al. (2017) [Plumage genes and little else distinguish the genomes of hybridizing warblers.](https://www.cell.com/current-biology/fulltext/S0960-9822(16)30673-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098221630673X%3Fshowall%3Dtrue).
 
 
 ### **Repository organization**
@@ -41,6 +43,7 @@ Aditionally, .htlm files with figures and scripts development.
 
 **[meta](/meta)**
 
+This folder will contain general information about samples (I.D, Geographical coordinates).
 This folder will contain general information about samples (I.D, Geographical coordinates).
 
 **[out](/out)**
