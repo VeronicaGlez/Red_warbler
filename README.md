@@ -43,12 +43,19 @@ Aditionally, .htlm files with figures and scripts development.
 
 **[meta](/meta)**
 
-This folder will contain general information about samples (I.D, Geographical coordinates).
-This folder will contain general information about samples (I.D, Geographical coordinates).
+This folder contain a met_yw.csv file and contain information about samples: indiv (ID), site, coordinates, band number, sex.
+The species name corresponds to the coarse scale phenotype, classified in the hand as either: BWWA - blue-winged warbler; GWWA - golden-winged warbler; BRWA - Brewster's warbler hybrid.
 
 **[out](/out)**
 
-Contains results of all analysis made in the research.
+Contains results of any analysis made in the research.
+The results are divided into different folders for each analysis that correspond to each script.
+
+**output list**
+ - `1_exploratory analysis` output with PCA and exploratory analisis
+ - `2_genetic diversity` output with dataframes of inbreeding, Observed heterozygosity and expected heterozygosity.
+ - `3_Admixture` 
+ - `4_candidate_loci` 
 
 ### Prerequisites
 * R version 3.6.3 (2020-02-29)
