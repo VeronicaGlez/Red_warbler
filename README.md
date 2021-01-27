@@ -43,7 +43,7 @@ Aditionally, .htlm files with figures and scripts development.
 
 **[meta](/meta)**
 
-This folder contain a met_yw.csv file and contain information about samples: indiv (ID), site, coordinates, band number, sex.
+This folder contain a met_yw.csv file with information about samples: indiv (ID), site, coordinates, band number, sex.
 The species name corresponds to the coarse scale phenotype, classified in the hand as either: BWWA - blue-winged warbler; GWWA - golden-winged warbler; BRWA - Brewster's warbler hybrid.
 
 **[out](/out)**
