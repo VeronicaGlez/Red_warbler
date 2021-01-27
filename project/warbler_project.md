@@ -43,10 +43,18 @@ In the other hand, the populations show very similar values of heterozygosity ob
 
 ##### **Table 1.**  Genetic diversity of BRWA - Brewster’s warbler hybrid, BWWA - blue-winged warbler; GWWA - golden-winged warbler.
 
-The evaluation of admixture analysis confirmed exploratory analysis with PCA  and not show any kind of structure between the populations (k=1).
+The evaluation of admixture analysis confirmed exploratory analysis with PCA  and not show any kind of structure between the populations k=1 (Table 2).
 
+| K   |CV error |
+|-----|:-------:|
+|(K=1)| 0.37633 |
+|(K=2)| 0.39824 |
+|(K=3)| 0.41934 |
+|(K=4)| 0.45215 |
+|(K=5)| 0.47195 |
+|(K=6)| 0.50126 |
 
-
+##### **Table 2.**  
 
 
 It is not surprising that by resequencing the individuals and having a greater number of SNPS, a clearer difference can be seen between the groups and q 
