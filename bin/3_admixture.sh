@@ -1,3 +1,4 @@
+#!/bin/bash 
 #Script for evaluate admixture
 #Author: Veronica L. Gonzalez Valdez
 
