@@ -1,0 +1,6 @@
+CV error (K=1): 0.37633
+CV error (K=2): 0.39824
+CV error (K=3): 0.41934
+CV error (K=4): 0.45215
+CV error (K=5): 0.47195
+CV error (K=6): 0.50126
