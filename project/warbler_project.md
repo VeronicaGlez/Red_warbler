@@ -35,11 +35,11 @@ For the exploratory analyzes, I did not find a strong difference between the phe
 
 In the other hand, the populations show very similar values of heterozygosity observed and expected  but the golden-winged warbler show most inbreet that the others populations (Table 1).
 
-| Ho        |      He      |  Fis|            |
-|----------|:------------ :|------:|-------:|
-| 0.1500 | 0.1693 | 0.04400 |"BRWA" |
-| 0.1698 |  0.1771|  0.0502 |"BWWA"  |
-| 0.15633| 0.1721|   **0.1261**| "GWWA" |
+| Ho     |      He  |   Fis  |        |
+|--------|:--------:|------:|-------:|
+| 0.1500 | 0.1693 | 0.04400 |"BRWA"  |
+| 0.1698 |  0.1771| 0.0502  |"BWWA"  |
+| 0.15633| 0.1721|**0.1261**| "GWWA" |
 
 ##### **Table 1.**  Genetic diversity of BRWA - Brewster’s warbler hybrid, BWWA - blue-winged warbler; GWWA - golden-winged warbler.
 
