@@ -1,8 +1,8 @@
-## **Landscape genomics of the red warbler (*Cardellina rubra*) in Mexican fragmented forests**
+fou**Landscape genomics of the red warbler (*Cardellina rubra*) in Mexican fragmented forests**
 
   In the last 50 years, Mexico lost about 50% of its forests because of land use change. Even though birds have been considered as highly tolerant to disturbed environments because of their ability to fly, recent analyses suggest that, this is not necessarily true. Next Generation Sequencing (NGS) is a sensitive tool that allows the detection of the effects of environmental changes on species at the population genetics level and enables inferences about connectivity, population sizes and adaptation.
  
-In this repository, you will find the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species (*Vermivora chrysoptera, V. cyanoptera*) and a híbrid. Then, this will serve as the basis for analyze the impact of habitat fragmentation in genetic diversity, population structure and admixture of  *Cardellina rubra* along Trans-Mexican Volcanic Belt.
+In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species (*Vermivora chrysoptera, V. cyanoptera*) and a híbrid. Then, this  serve as the basis for analyze the impact of habitat fragmentation in genetic diversity, population structure and admixture of  *Cardellina rubra* along Trans-Mexican Volcanic Belt to part of phD work.
 
 
 ##### <div align="left"> ![](yellow.png) 
@@ -10,7 +10,7 @@ In this repository, you will find the work generated to analyze Single Nucleotid
 
 
 ### **Data**
-The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/dryad.kb610).  
+The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/dryad.kb610). The original paper: Toews, David P. L. et al. (2017) [Plumage genes and little else distinguish the genomes of hybridizing warblers.](https://www.cell.com/current-biology/fulltext/S0960-9822(16)30673-X?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS096098221630673X%3Fshowall%3Dtrue).
 
 
 ### **Repository organization**
@@ -20,7 +20,7 @@ bin, data, graphics, meta, out.
 
 **[bin](/bin)**
 
-This folder will contain scripts to evaluate population structure, genetic diversity and admixture.
+This folder  contain scripts to evaluate population structure, genetic diversity and admixture.
 
 **[data](/data)**
 
@@ -46,10 +46,13 @@ Contains results of all analysis made in the research.
 * Running under: Ubuntu 18.04.5 LTS
 
 #### Software
-* PGDSpider
-* RStudio
-* vcftools
-* plink
+* PGDSpider 2.1.1.5
+* RStudio  3.6.3
+* vcftools 0.1.17
+* plink 0.70
+* ADMIXTURE 1.3.0
+* BAYESCAN 2.1
+
 
 #### R packages
 - SNPRelate
