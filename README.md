@@ -1,13 +1,23 @@
-**Landscape genomics of the red warbler (*Cardellina rubra*) in Mexican fragmented forests**
+**Background**
 
-  In the last 50 years, Mexico lost about 50% of its forests because of land use change. Even though birds have been considered as highly tolerant to disturbed environments because of their ability to fly, recent analyses suggest that, this is not necessarily true. Next Generation Sequencing (NGS) is a sensitive tool that allows the detection of the effects of environmental changes on species at the population genetics level and enables inferences about connectivity, population sizes and adaptation.
- 
-In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species (*Vermivora chrysoptera, V. cyanoptera*) and a híbrid. Then, this  serve as the basis for analyze the impact of habitat fragmentation in genetic diversity, population structure and admixture of  *Cardellina rubra* along Trans-Mexican Volcanic Belt to part of phD work.
+***
+
+In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization. 
 
 
-##### <div align="left"> ![](yellow.png) 
-#### <div align="left"> ![](35487721.jpeg) 
 
+##### <div align="center"> ![](gr1.jpg) 
+
+##### **Figure 1.**  Geographic Variation across the Golden-Winged and Blue-Winged Warbler Complex
+
+**Objective**
+The principal aim for this proyect was  compare genome variation in golden-winged (Vermivora chrysoptera) and blue-winged (V. cyanoptera) warblers, which hybridize across a broad zone of eastern North America  
+
+**Secondary objectives**
+1. Explore data sets with Principal Components Analysis for see if exist any estructure for dataset.
+2. Make genetic diversity analysis between species and hybrids.
+3. Evaluate admixture between phenotypes 
+4. Aditionally, the scripts generated for this proyect will serve as the basis for evaluate at genetic level to red warbler  (*Cardellina rubra*) an endemic species (with 3 subespecies) from Mexico as part of my doctoral project.
 
 ### **Data**
 The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/dryad.kb610). The dataset contain 151 Individuals with genotype information generated from the ddRAD protocol, with individuals sampled across the range of both species. The original name dataset is GWWA_BWWA.GATK.filtered.removed.minGQ.20.removed.indv.max.missing.4.maf.02.vcf.recode.vcf and rename to data_warbler.vcf
