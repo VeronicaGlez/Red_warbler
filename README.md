@@ -1,4 +1,4 @@
-fou**Landscape genomics of the red warbler (*Cardellina rubra*) in Mexican fragmented forests**
+**Landscape genomics of the red warbler (*Cardellina rubra*) in Mexican fragmented forests**
 
   In the last 50 years, Mexico lost about 50% of its forests because of land use change. Even though birds have been considered as highly tolerant to disturbed environments because of their ability to fly, recent analyses suggest that, this is not necessarily true. Next Generation Sequencing (NGS) is a sensitive tool that allows the detection of the effects of environmental changes on species at the population genetics level and enables inferences about connectivity, population sizes and adaptation.
  
@@ -15,12 +15,19 @@ The SNPs dataset was download from **Data Dryad**: (https://doi.org/10.5061/drya
 
 ### **Repository organization**
 
-The repository will be organized in the following directories:
+The repository be organized in the following directories:
 bin, data, graphics, meta, out.
 
 **[bin](/bin)**
 
-This folder  contain scripts to evaluate population structure, genetic diversity and admixture.
+This folder  contain scripts used for this project.
+**Script list**
+ - `1_exploratory analysis.R` Explore the SNP dataset with PCA analyses.
+ - `2_genetic diversity.R` Script for evaluate genetic diversity (Observed heterozygosity, expected heterozygosity and inbreeding) for pupulations.
+ - `3_Admixture.sh` make admixture analysis.
+ - `4_candidate_loci.sh` search candidate loci using BayeScan softwares.
+
+List evaluate population structure, genetic diversity and admixture.
 
 **[data](/data)**
 
