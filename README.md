@@ -55,7 +55,7 @@ This folder contain different dataset for each analysis.
  - `data_warbler.vcf ` Contain 151 Individuals with genotype information generated from the ddRAD protocol. Dataset for run `1. exploratory analysis script.`
  - `SNPs_012.012 ` SNPs dataset in format .012 for run `2. genetic diversity analysis.`
  - `data_warbler_newchr.bed,data_warbler_newch.bim and data_warbler_newchr.fam.` A datasets of plink format for run `3_Admixture.sh script.` 
- - `GWWA_BWWA_reseq.csv` Contain link to file for a .vcf file with genotype information for 24 individuals sampled  with re-sequencing data. Dataset for run `4_exploratory analysis script`.
+ - `GWWA_BWWA_reseq.csv` Contain link to file for a .vcf file with genotype information for 24 individuals sampled  with re-sequencing data. Dataset for run `4_exploratory_pca_reseqdata script`.
 
 **[graphics](/graphics)**
 
@@ -76,7 +76,7 @@ The results are divided into different folders for each analysis that correspond
  - `1_exploratory analysis:` cointain a pca_warbler.csv from `1. exploratory analysis script.`
  - `2_genetic diversity:` Ho.csv, Hs.locus.csv,Fis.csv files from `2_genetic diversity.script.`
  - `3_Admixture:` output data for k= 6 and a SNPS.CV.txt file with the summary admixtures K.
- - `4_exploratory analysis:` cointain a pca_warbler.txt file from `4. exploratory analysis script.
+ - `4_exploratory_pca_reseqdata:` cointain a pca_warbler.txt file from `4. exploratory analysis script.
 
 **[project](/project)**
 
