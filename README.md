@@ -44,7 +44,7 @@ This folder  contain scripts used for this project.
  - `1_exploratory analysis.R` Explore the SNP dataset with PCA analyses.
  - `2_genetic diversity.R` Script for evaluate genetic diversity (Observed heterozygosity, expected heterozygosity and inbreeding) for populations.
  - `3_Admixture.sh` make admixture analysis.
- - `4_exploratory analysis.sh` Explore resequencing SNPs dataset with PCA.
+ - `4_exploratory_pca_reseqdata.sh` Explore resequencing SNPs dataset with PCA.
 
 
 **[data](/data)**
@@ -55,11 +55,11 @@ This folder contain different dataset for each analysis.
  - `data_warbler.vcf ` Contain 151 Individuals with genotype information generated from the ddRAD protocol. Dataset for run `1. exploratory analysis script.`
  - `SNPs_012.012 ` SNPs dataset in format .012 for run `2. genetic diversity analysis.`
  - `data_warbler_newchr.bed,data_warbler_newch.bim and data_warbler_newchr.fam.` A datasets of plink format for run `3_Admixture.sh script.` 
- - `GWWA_BWWA_reseq.vcf` Contain genotype information for 24 individuals sampled  with re-sequencing data. Dataset for run `4_exploratory analysis script`.
+ - `GWWA_BWWA_reseq.csv` Contain link to file for a .vcf file with genotype information for 24 individuals sampled  with re-sequencing data. Dataset for run `4_exploratory analysis script`.
 
 **[graphics](/graphics)**
 
-This folder contain PCA figures and .htlm files obtained to `1. exploratory analysis,` `2. genetic_diversity`and  `4_exploratory analysis scripts`.
+This folder contain PCA figures and .htlm files obtained to `1. exploratory analysis` and  `4_exploratory analysis scripts`.
 
 **[meta](/meta)**
 
