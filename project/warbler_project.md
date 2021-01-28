@@ -1,8 +1,9 @@
 **Background**
 
 ***
+The parulid warblers of North America are a well-known avian radiation in which species are distinguished by dramatic differences in plumage [6]. In Golden-winged and blue-winged warbler (two phenotypically divergent warblers), numerous studies have documented extensive hybridization [3] between them with little or no detectable fitness reduction in hybrid individuals[5]. However, both taxa are declining, and researchare focus of conservation efforts[4].
 
-In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization. 
+In this [**repository**:](https://github.com/VeronicaGlez/Red_warbler_repo) you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization for explore populations structure and genetic diversity for both populations and their hybrids (Figure 1).
 
 
 
@@ -11,29 +12,28 @@ In this repository, you found the work generated to analyze Single Nucleotide Po
 ##### **Figure 1.**  Geographic Variation across the Golden-Winged and Blue-Winged Warbler Complex
 
 **Objective**
-The principal aim for this proyect was  compare genome variation in golden-winged (Vermivora chrysoptera) and blue-winged (V. cyanoptera) warblers, which hybridize across a broad zone of eastern North America  
+The principal aim for this project was  compare genome variation in golden-winged (Vermivora chrysoptera) and blue-winged (V. cyanoptera) warblers, which hybridize across a broad zone of eastern North America  
 
 **Secondary objectives**
-1. Explore data sets with Principal Components Analysis for see if exist any estructure for dataset.
+1. Explore data sets with Principal Components Analysis(PCA) for see if exist any estructure for dataset.
 2. Make genetic diversity analysis between species and hybrids.
 3. Evaluate admixture between phenotypes 
 4. Aditionally, the scripts generated for this proyect will serve as the basis for evaluate at genetic level to red warbler  (*Cardellina rubra*) an endemic species (with 3 subespecies) from Mexico as part of my doctoral project.
 
 **Data**
 
-The SNPs datasets was download from Data Dryad: (https://doi.org/10.5061/dryad.kb610).  The first dataset data_warbler.vcf contain  151 Individuals with genotype information generated from the ddRAD protocol, with individuals sampled across the range of both species.
-Aditionally, I work with a second dataset 
+The SNPs datasets was download from Data Dryad: (https://doi.org/10.5061/dryad.kb610).  See [datails from data sets and methods](https://github.com/VeronicaGlez/Red_warbler_repo).
 
 **Results and discussion**
 
-For the exploratory analyzes, I did not find a strong difference between the phenotypes of the species, (figure 2) it is possible that, given the high rate of hybridization, there is a large genetic flow between the populations, which would make it difficult to see any clear separation. The exploratory evaluations made with Principal Component Analysis does not show clearly groups between species or hybrids (Fig. 2).
+For the exploratory analyzes, I did not found a strong difference between the phenotypes of the species, (figure 2). It is possible that, given the high rate of hybridization, there is a large genetic flow between the populations, which would make it difficult to see any clear separation. The exploratory evaluations made with PCA does not show clearly groups between species or hybrids (Fig. 2).
 
 ##### <div align="center"> ![](pca_phenotype.png) 
 
 ##### **Figure 2.**  PCA by species complex. Phenotypes: BRWA - Brewster's warbler hybrid, BWWA - blue-winged warbler; GWWA - golden-winged warbler.
 
 
-In the other hand, the populations show very similar values of heterozygosity observed and expected  but the golden-winged warbler show most inbreet that the others populations (Table 1).
+In the other hand, for evaluate the genetic diversity, the  populations show very similar values of heterozygosity observed and expected  but the golden-winged warbler show most inbreeding that the others phenotypes (Table 1). This decline is due in part to forest regeneration, which has reduced the availability of the early-successional habitats that both taxa rely on during breeding [4]. Golden-winged warblers are also thought to be threatened by displacement and hybridization due to expanding ranges of blue-winged warblers [5]: in many locations, golden-winged warblers have been replaced by hybrids and subsequently by blue-winged warblers [9].
 
 | Ho     |      He  |   Fis  |        |
 |--------|:--------:|------:|-------:|
@@ -43,7 +43,7 @@ In the other hand, the populations show very similar values of heterozygosity ob
 
 ##### **Table 1.**  Genetic diversity of BRWA - Brewster’s warbler hybrid, BWWA - blue-winged warbler; GWWA - golden-winged warbler.
 
-The evaluation of admixture analysis confirmed exploratory analysis with PCA  and not show any kind of structure between the populations k=1 (Table 2).
+The evaluation of admixture analysis confirmed exploratory analysis with PCA  and not show any kind of structure between the populations k=1 with CV= 0.0376, see Table 2.
 
 | K   |CV error |
 |-----|:-------:|
@@ -54,8 +54,13 @@ The evaluation of admixture analysis confirmed exploratory analysis with PCA  an
 |(K=5)| 0.47195 |
 |(K=6)| 0.50126 |
 
-##### **Table 2.**  
+##### **Table 2.**  Cross validation for k= 6 values, where the number in parentheses is the standard error of the cross-validation error estimate.
 
-
-It is not surprising that by resequencing the individuals and having a greater number of SNPS, a clearer difference can be seen between the groups and q 
-##### <div align="center"> ![](pca_reseq_size.png) 
+Finally, I made a new script for explore a resequencing datased with 11.4 million SNPs of the warblers complex. 
+In this PCA analysis (Fig. 3), I  found a different pattern that first PCA and nearly 4.7% to the explain variance vs 1.7% that previous analysis. Maybe the diffence between populations are explain in particularmore variance explained and  
+Possibly the differences between the phenotypes are found in particular regions of the genomes, which are not easily detected due to the high rate of hybridization, and only can detected with whole genome, which has been reported by toews.
+It would be important evaluate what regions they are and if they are coding for any gene or if exist snps  candidates under selection. 
+ 
+  ##### <div align="center"> ![](pca_reseq2.png) 
+  
+  ##### **Figure 3.**  PCA by species complex. Phenotypes: BRWA - Brewster's warbler hybrid, BWWA - blue-winged warbler; GWWA - golden-winged warbler and INTR - intermediate hybrid.
