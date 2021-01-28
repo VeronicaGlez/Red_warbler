@@ -1,7 +1,7 @@
 **Background**
 
 ***
-The parulid warblers of North America are a well-known avian radiation in which species are distinguished by dramatic differences in plumage [2]. In Golden-winged and blue-winged warbler (two phenotypically divergent warblers), numerous studies have documented extensive hybridization [3] between them with little or no detectable fitness reduction in hybrid individuals[3]. However, both taxa are declining, and researchare focus of conservation efforts.
+The parulid warblers of North America are a well-known avian radiation in which species are distinguished by dramatic differences in plumage [1]. In Golden-winged and blue-winged warbler (two phenotypically divergent warblers), numerous studies have documented extensive hybridization [3] between them with little or no detectable fitness reduction in hybrid individuals[3]. However, both taxa are declining, and researchare focus of conservation efforts.
 
 In this [**repository**:](https://github.com/VeronicaGlez/Red_warbler_repo) you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization for explore populations structure and genetic diversity for both populations and their hybrids (Figure 1).
 
