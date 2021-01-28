@@ -59,7 +59,7 @@ This folder contain different dataset for each analysis.
 
 **[graphics](/graphics)**
 
-This folder contain PCA figures and .htlm files obtained to `1. exploratory analysis` and  `4_exploratory analysis scripts`.
+This folder contain PCA figures and .htlm files obtained to `1. exploratory analysis,` `2. genetic_diversity`and  `4_exploratory analysis scripts`.
 
 **[meta](/meta)**
 
