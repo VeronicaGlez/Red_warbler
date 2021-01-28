@@ -93,7 +93,6 @@ This folder cointain a .md file with summary and results' project.
 * vcftools 0.1.17
 * plink 0.70
 * ADMIXTURE 1.3.0
-* BAYESCAN 2.1
 
 
 #### Packages
