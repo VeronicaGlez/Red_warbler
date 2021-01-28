@@ -2,8 +2,9 @@
 
 ***
 
-In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization. 
+The parulid warblers of North America are a well-known avian radiation in which species are distinguished by dramatic differences in plumage [1]. In Golden-winged and blue-winged warbler (two phenotypically divergent warblers), numerous studies have documented extensive hybridization [2] between them with little or no detectable fitness reduction in hybrid individuals[3]. However, both taxa are declining, and researchare focus of conservation efforts.
 
+In this repository, you found the work generated to analyze Single Nucleotide Polymorphisms (SNPs) in two warblers species *Vermivora chrysoptera and  V. cyanoptera*, two phenotypically divergent warblers that have a high rate of hibridization. 
 
 
 ##### <div align="center"> ![](gr1.jpg) 
@@ -99,5 +100,23 @@ This folder cointain a .md file with summary and results' project.
 - SNPRelate
 - ggplot2
 - gdsfmt
+
+
+
+### References 
+ 1. Lovette I.J; Bermingham E.
+  Explosive speciation in the New World Dendroica warblers.
+  Proc. Biol. Sci. 1999; 266: 1629-1636.
+  
+2. Vallender R; Robertson R.J; Friesen V.L; Lovette I.J.
+Complex hybridization dynamics between golden-winged and blue-winged warblers (Vermivora chrysoptera and Vermivora pinus) revealed by AFLP, microsatellite, intron and mtDNA markers.
+Mol. Ecol. 2007; 16: 2017-2029
+
+3. Gill F.B. Blue-winged warblers (Vermivora pinus) versus golden-winged warblers (V. chrysoptera).
+Auk. 2004; 121: 1014-1018
+
+4. Toews, David & Taylor, Scott & Vallender, Rachel & Brelsford, Alan & Butcher, Bronwyn & Messer, Philipp & Lovette, Irby. (2016). Plumage Genes and Little Else Distinguish the Genomes of Hybridizing Warblers. Current biology : CB. 26. 10.1016/j.cub.2016.06.034.
+
+
 
 Created by: Veronica L. Gonzalez Valdez
